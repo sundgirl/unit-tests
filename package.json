@@ -2,7 +2,7 @@
   "name": "unit-tests",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "spec/unit-tests.js",
   "directories": {
     "lib": "lib"
   },
@@ -12,10 +12,12 @@
   "devDependencies": {
     "eslint": "^5.15.1",
     "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0"
   },
   "scripts": {
-    "test": "jasmine spec/unit-tests.js"
+    "test": "jasmine spec/unit-tests.js",
+    "lint": "eslint ./spec/unit-tests.js"
   },
   "keywords": [],
   "author": "",
