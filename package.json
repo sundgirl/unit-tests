@@ -1,0 +1,23 @@
+{
+  "name": "unit-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "jasmine": "^3.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  },
+  "scripts": {
+    "test": "jasmine spec/unit-tests.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
