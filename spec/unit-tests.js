@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const calc = require('./calc');
 
 describe("Factorial", () => {
